@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left top, #ad1a3b, #bb5230, #bf7f35, #bca850, #b6ce7e);
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+select{
+    width: 200px;
+    height: 46px;
+}
+
+.input_text{
+    width: 400px;
+    height: 40px;
+}
+.submit_icon{
+    background-color: white;
+    padding: 13px 10px;
+    margin-left: -4px;
+    color: black;
+}
