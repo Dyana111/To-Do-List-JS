@@ -8,7 +8,7 @@ body{
     align-content: center;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    
 }
 select{
     width: 200px;
@@ -24,4 +24,7 @@ select{
     padding: 13px 10px;
     margin-left: -4px;
     color: black;
+}
+.form-container{
+    margin-top: 10%;
 }
