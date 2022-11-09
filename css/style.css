@@ -1,5 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 body{
     height: 100vh;
+    font-family: 'Nunito', sans-serif;
     background-image: linear-gradient(to left top, #ad1a3b, #bb5230, #bf7f35, #bca850, #b6ce7e);
 }
 
@@ -11,20 +18,63 @@ body{
     
 }
 select{
-    width: 200px;
+    width: 180px;
     height: 46px;
+    padding: 10px;
 }
 
 .input_text{
     width: 400px;
     height: 40px;
 }
-.submit_icon{
-    background-color: white;
-    padding: 13px 10px;
-    margin-left: -4px;
-    color: black;
-}
+
 .form-container{
     margin-top: 10%;
+}
+.submit-btn{
+    width: 50px;
+    height: 44px;
+    margin-left: -5px;
+}
+.fa-solid {
+    font-size: 30px;
+    margin-left: -39px;
+    margin-right: 20px;
+}
+.todo-item{
+    background-color: white;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo-check{
+    margin-right: 15px;
+}
+.container-result{
+    margin-top: 5%;
+}
+
+.todo-item h2{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.4;
+    padding-left: 19px;
+}
+.todo-icons{
+    display: inline-block;
+    margin-right: -20px;
+}
+.icon_check{
+    background-color: green;
+    padding: 15px;
+    color:white;
+    font-size: 12px;
+
+}
+.icon_trash{
+    background-color: rgb(230, 113, 113);
+    padding: 15px;
+    color: white;
+    font-size: 12px;
 }
