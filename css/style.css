@@ -27,12 +27,17 @@ body{
 .form-container{
     margin-top: 10%;
 }
-.submit-btn{
-    width: 50px;
-    height: 44px;
-    margin-left: -5px;
-}
+.todo-button{
+    width: 40px;
+    background-color: white;
+    border: none;
+    height: 43px;
 
+}
+.submit-icon{
+    font-size: 25px;
+    color: #e68075;
+}
 .todo-item{
     background-color: white;
     width: 400px;
