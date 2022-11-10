@@ -5,7 +5,7 @@
 
 
 body{
-    height: 100vh;
+    height: 100%;
     font-family: 'Nunito', sans-serif;
     background-image: linear-gradient(to left top, #ad1a3b, #bb5230, #bf7f35, #bca850, #b6ce7e);
 }
@@ -38,6 +38,7 @@ body{
     width: 400px;
     display: flex;
     justify-content: space-between;
+    margin: 5px 0;
 }
 .todo-check{
     margin-right: 15px;
@@ -49,7 +50,7 @@ body{
 .todo-item h2{
     display: inline-block;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 2.4;
     padding-left: 19px;
 }
@@ -63,7 +64,7 @@ body{
     color:green;
     font-size: 12px;
     margin-left: -39px;
-    margin-right: 35px;
+    margin-right: 39px;
     border: none;
 }
 
@@ -78,5 +79,12 @@ body{
     border: none;
 }
     
+.completed-todo{
+    text-decoration: line-through;
+    opacity: .6;
+}
     
+.remove-todo{
+    display: none;
+}
 
