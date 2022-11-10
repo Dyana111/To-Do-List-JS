@@ -17,11 +17,7 @@ body{
     justify-content: center;
     
 }
-select{
-    width: 180px;
-    height: 46px;
-    padding: 10px;
-}
+
 
 .input_text{
     width: 400px;
@@ -36,11 +32,7 @@ select{
     height: 44px;
     margin-left: -5px;
 }
-.fa-solid {
-    font-size: 30px;
-    margin-left: -39px;
-    margin-right: 20px;
-}
+
 .todo-item{
     background-color: white;
     width: 400px;
@@ -67,14 +59,24 @@ select{
 }
 .icon_check{
     background-color: green;
-    padding: 15px;
-    color:white;
+    padding: 17px;
+    color:green;
     font-size: 12px;
-
+    margin-left: -39px;
+    margin-right: 35px;
+    border: none;
 }
+
+
 .icon_trash{
     background-color: rgb(230, 113, 113);
-    padding: 15px;
+    padding: 17px;
     color: white;
     font-size: 12px;
+    margin-left: -39px;
+    margin-right: 20px;
+    border: none;
 }
+    
+    
+
